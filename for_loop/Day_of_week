@@ -1,0 +1,5 @@
+d=1
+for day in Mon Tues Wednes Thurs Fri Satur Sun
+do
+echo " $day""day's place in the week is $((d ++ ))"
+done

@@ -1,0 +1,14 @@
+for ((name=10;name>=1;name--))
+do
+echo $name
+done
+
+#Observe this last name value it still adds it
+echo $name
+
+for ((name=1;name<=10;name++))
+do
+echo $name
+done
+#Observe this last name value it still adds it
+echo $name
