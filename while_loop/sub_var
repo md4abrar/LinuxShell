@@ -1,0 +1,6 @@
+number=30
+while [ $number -gt 23 ]
+do echo "$number is larger than 23 reducing the value by 1"
+number=$(($number -1 ))
+done
+echo "Now the value is 23"

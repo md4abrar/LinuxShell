@@ -1,0 +1,5 @@
+ni=1
+while [ $ni -lt 25 ]
+do echo This is $ni
+ni=$(($ni + 1 ))
+done
