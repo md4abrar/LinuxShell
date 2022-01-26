@@ -1,6 +1,18 @@
+All the positional parameters passed to the script
 echo $*
+
+Number of positional parameters passed to the script
 echo $#
+
+Exit status of last run command
 echo $?
+
+The first positional parameter following the script name
 echo $1
+
+The script name itself or what ever is at the first place in the executed command
 echo $0
 echo $@
+
+PID of last command
+echo $!
